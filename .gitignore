@@ -1,0 +1,92 @@
+# >>> BASE RULES >>>
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Cache / temp
+.cache/
+tmp/
+temp/
+
+# Build / artifacts
+build/
+dist/
+
+# <<< BASE RULES <<<
+
+# >>> AUTO DISCOVERED RULES >>>
+__pycache__/
+Output/
+Projects/
+voicereferences/
+temp/
+*.json
+# <<< AUTO DISCOVERED RULES <<<
+
+# Added by Git Repo Creator
+# Media and Archives
+*.mp4
+*.wav
+*.mp3
+*.mov
+*.mkv
+*.avi
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.flac
+*.aac
+*.ogg
+*.m4a
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.iso
+*.blend
+# AI Models
+*.bin
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+# Python / Dev
+.env
+.env.local
+.pytest_cache/
+*.tmp
+*.bak
+model_cache/
+models/
+checkpoints/
+
+# Added by Git Repo Creator
+# Media, Archives, and AI Models
+*.flv
+*.wmv
+# GitHub Actions
+.github/
