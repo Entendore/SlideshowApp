@@ -1,0 +1,24 @@
+# ═══════════════════════════════════════════════════════════════
+# CORE GUI & RENDERING
+# ═══════════════════════════════════════════════════════════════
+PySide6>=6.5.0           # GUI Framework
+numpy>=1.24.0            # Array processing for video frames
+Pillow>=10.0.0           # Image processing & fast-path slide rendering
+playwright>=1.30.0       # Headless browser for HTML-to-video capture
+
+# ═══════════════════════════════════════════════════════════════
+# FILE IMPORTS (PDF & PPTX)
+# ═══════════════════════════════════════════════════════════════
+PyMuPDF>=1.22.0          # PDF rendering and text extraction (imported as fitz)
+python-pptx>=0.6.21      # PPTX text and speaker notes extraction
+
+# ═══════════════════════════════════════════════════════════════
+# AI / TTS BACKENDS
+# ═══════════════════════════════════════════════════════════════
+#torch>=2.0.0             # PyTorch (Required by Qwen/OmniVoice backends)
+#torchaudio>=2.0.0        # Audio processing for TTS backends
+#transformers>=4.30.0     # Hugging Face model loading (used by backends)
+
+# NOTE: If you have an NVIDIA GPU, you should install the CUDA version 
+# of PyTorch instead of the default. Visit https://pytorch.org/ for 
+# the correct pip command for your system.
